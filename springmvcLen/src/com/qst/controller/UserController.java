@@ -38,6 +38,8 @@ public class UserController {
 		System.out.println("name:"+username);
 		System.out.println("pass:"+userpass);
 		
+		System.out.println("-------------");
+		
 		System.out.println("登录出去了");
 		return "success";
 	}
